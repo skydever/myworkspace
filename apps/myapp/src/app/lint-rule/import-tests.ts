@@ -1,0 +1,14 @@
+import { AppComponent } from '../app.component';
+import { AppTwoAnotherService } from '@myworkspace/../apps/myapptwo/src/app/app-two-another.service';
+import { AppTwoService } from 'apps/myapptwo/src/app/app-two.service';
+import { AppOneService } from 'apps/myapp/src/app/app-one.service';
+import { BrowserModule } from '@angular/platform-browser';
+import { LibLazyAnotherService } from '../../../../../libs/myliblazy';
+import { LibLazyService } from '@myworkspace/myliblazy';
+import { LibOneAnotherService } from 'libs/mylib';
+import { LibOneDeepService } from '@myworkspace/mylib/src/lib-one-deep.service';
+import { LibOneService } from '@myworkspace/mylib';
+import { LibTwoDeepService } from '@myworkspace/mylibtwo/src/lib-two-deep.service';
+import { LibTwoService } from '../../../../../libs/mylibtwo';
+import { NgModule } from '@angular/core';
+import { NxModule } from '@nrwl/nx';
